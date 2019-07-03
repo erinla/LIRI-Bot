@@ -10,6 +10,8 @@ This will search the Bands in Town Artist Events API for an artist and render th
    * Venue location
    * Date of the Event
 
+![concert-this gif](concert-this.gif)
+
 Spotify-This
 Utilizes both the node-spotify-api package and the Spotify API in order to retrieve the following song information:
 
@@ -17,6 +19,8 @@ Artist(s)
    * The song's name
    * A preview link of the song from Spotify
    * The album that the song is from
+
+![spotify-this-song gif](spotify-this-song.gif)
 
 Movie-This
 The axios package is used to retrieve data from the OMDB API to retreive the following movie information:
@@ -30,8 +34,12 @@ The axios package is used to retrieve data from the OMDB API to retreive the fol
    * Plot of the movie.
    * Actors in the movie.
 
+![movie-this gif](movie-this.gif)
+
 Do-What-It-Says
 The fs Node package is used to take the text inside of random.txt and then use it to call one of LIRI's commands.
+
+![do-what-it-says gif](do-what-it-says.gif)
 
 
 
