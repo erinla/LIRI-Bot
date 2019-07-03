@@ -16,7 +16,8 @@ This will search the Bands in Town Artist Events API for an artist and render th
 **Spotify-This** :musical_keyboard:
 
 Utilizes both the node-spotify-api package and the Spotify API in order to retrieve the following song information:
-
+   
+   * Artist name
    * The song's name
    * A preview link of the song from Spotify
    * The album that the song is from
