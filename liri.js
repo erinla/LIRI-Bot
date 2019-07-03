@@ -45,7 +45,7 @@ if (userInput === "concert-this") {
 
 function concertThis() {
     var queryUrl = "https://rest.bandsintown.com/artists/" + userInput2 + "/events?app_id=codingbootcamp";
-    console.log(queryUrl)
+    // console.log(queryUrl)
     var axios = require("axios");
     axios.get(queryUrl).then(function (response) {
         // console.log(JSON.stringify(response.data))
